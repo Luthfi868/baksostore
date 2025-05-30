@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Warung Bakso</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Warung Bakso</h1>
+  </header>
+  <main>
+    <section class="menu">
+      <h2>Pilihan Menu</h2>
+      <ul>
+        <li>
+          <input type="checkbox" id="bakso-urat" value="Bakso Urat">
+          <label for="bakso-urat">Bakso Urat</label>
+          <span>Rp 10.000</span>
+        </li>
+        <li>
+          <input type="checkbox" id="bakso-mercon" value="Bakso Mercon">
+          <label for="bakso-mercon">Bakso Mercon</label>
+          <span>Rp 12.000</span>
+        </li>
+        <li>
+          <input type="checkbox" id="bakso-beranak" value="Bakso Beranak">
+          <label for="bakso-beranak">Bakso Beranak</label>
+          <span>Rp 15.000</span>
+        </li>
+        <li>
+          <input type="checkbox" id="bakso-jumbo" value="Bakso Jumbo">
+          <label for="bakso-jumbo">Bakso Jumbo</label>
+          <span>Rp 20.000</span>
+        </li>
+      </ul>
+      <div id="level-pedas-container" style="display: none;">
+        <h3>Level Kepedasan</h3>
+        <select id="level-pedas">
+          <option value="1">Level 1 (Tidak Pedas)</option>
+          <option value="2">Level 2 (Sedikit Pedas)</option>
+          <option value="3">Level 3 (Pedas Sedang)</option>
+          <option value="4">Level 4 (Sangat Pedas)</option>
+          <option value="5">Level 5 (Ekstrim Pedas)</option>
+        </select>
+      </div>
+      <button id="pesan-btn">Pesan Sekarang</button>
+      <p id="total-harga"></p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
