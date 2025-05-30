@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(to bottom, #f2f2f2, #fff);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(to bottom, #333, #444);
+}
+
+.menu {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  margin: 40px auto;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, #fff, #f9f9f9);
+}
+
+.menu h2 {
+  margin-top: 0;
+  color: #333;
+  font-weight: bold;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#level-pedas-container {
+  margin-bottom: 20px;
+}
+
+.menu li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+
+.menu li:hover {
+  background-color: #f9f9f9;
+}
+
+.menu label {
+  margin-left: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+#level-pedas-container {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#level-pedas {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+#pesan-btn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#pesan-btn:hover {
+  background-color: #444;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#total-harga {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+  color: #333;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsif untuk perangkat mobile */
+@media only screen and (max-width: 768px) {
+  .menu {
+    width: 90%;
+    margin: 20px auto;
+  }
+  header {
+    padding: 10px;
+  }
+}
+
+/* Responsif untuk perangkat tablet */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .menu {
+    width: 80%;
+    margin: 30px auto;
+  }
+}
+
+/* Responsif untuk perangkat desktop */
+@media only screen and (min-width: 1025px) {
+  .menu {
+    width: 70%;
+    margin: 40px auto;
+  }
+}
